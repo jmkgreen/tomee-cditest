@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tomee-cdi-webcontext:war exploded">
+    <output-path>$PROJECT_DIR$/target/cdi-webcontext-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tomee-cdi-webcontext/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tomee-cdi-webcontext" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
